@@ -1,0 +1,68 @@
+body {
+  font-family: 'Nunito Sans';
+}
+
+#home-background {
+  background-color: #1a1a1a;
+}
+
+.jumbotron {
+  margin-bottom: 0%;
+  background-image: url('cyber.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 0px;
+}
+
+.jumbobtron-text {
+  color: #ffffff;
+  font-weight: bold;
+  background: rgba(1, 75, 165, 0.8);
+  border-radius: 15px;
+  padding: 0.1%;
+}
+
+.btn-primary {
+  background-color: #002f6c;
+  border-color: #002f6c;
+}
+
+#mailing-button {
+  background-color: #E57200;
+  border-color: #E57200;
+}
+
+.disclaimer {
+  background-color: #1a1a1a;
+  margin-top: 3%;
+}
+
+.disclaimer-text {
+  padding-top: 2%;
+  padding-bottom: 0.5%;
+  margin-bottom: 0%;
+  color: #6c757d;
+}
+
+.page-header {
+  padding-top: 1.5%;
+  padding-bottom: 1%;
+}
+
+.categories {
+  margin-bottom: 0.5%;
+}
+
+a {
+  color:#002f6c;
+  text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+
+}
+
+.link-highlight {
+  color: #E57200;
+}

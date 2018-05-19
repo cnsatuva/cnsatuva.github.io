@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+		<!-- Custom CSS -->
+		<link rel="stylesheet" type="text/css" href="custom.css">
+		<!-- Custom Google Font -->
+		<link href='https://fonts.googleapis.com/css?family=Nunito Sans' rel='stylesheet'>
+		<title>CNS | Resources</title>
+	</head>
+	<body>
+		<nav class="navbar sticky-top navbar-expand-sm bg-dark navbar-dark">
+		  <a class="navbar-brand" href="index.html">Computer and Network Security Club</a>
+			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navb">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+			<div class="collapse navbar-collapse" id="navb">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+		      <a class="nav-link" href="index.html">Home</a>
+		    </li>
+				<li class="nav-item" >
+		      <a class="nav-link active" href="resources.html">Resources</a>
+		    </li>
+				<li class="nav-item">
+		      <a class="nav-link" href="blog.html">Blog</a>
+		    </li>
+				<li class="nav-item">
+		      <a class="nav-link" href="https://cnsuva.slack.com/signup" target="_blank">Slack</a>
+		    </li>
+		  </ul>
+			</div>
+		</nav>
+		<div class="container">
+			<h2 class="page-header">Resources</h2>
+		</div>
+		<div class="container">
+			<a href="#web-security"><button type="button" class="btn btn-primary categories">Web Security</button></a>
+			<a href="#cryptography"><button type="button" class="btn btn-primary categories">Cryptography</button></a>
+			<a href="#application-security"><button type="button" class="btn btn-primary categories">Application Security</button></a>
+			<a href="#general-practice"><button type="button" class="btn btn-primary categories">General Practice</button></a>
+			<a href="#advanced"><button type="button" class="btn btn-primary categories">Advanced</button></a>
+			<a href="#ctf-information"><button type="button" class="btn btn-primary categories">CTF Information</button></a>
+			<a href="#news-blogs"><button type="button" class="btn btn-primary categories">News/Blogs</button></a>
+		</div>
+		<div class="card container">
+		  <div class="card-body">
+				<a name="web-security">
+					<h3>Web Security</h3>
+					<a href="https://www.owasp.org/index.php/Top_10_2013-Top_10" target="_blank">
+						<h5>OWASP Top 10</h5>
+						<p>This guide is published by OWASP, an open group focused on web security. The latest revision (2013) details the top 10 web vulnerabilities seen in the wild, with extensive information on each one. Definitely a great starting point.</p>
+					</a>
+					<a href="https://github.com/WebGoat/WebGoat" target="_blank">
+						<h5>WebGoat</h5>
+						<p>WebGoat is a purposely insecure web application made by OWASP to demonstrate basic security vulnerabilities. Each vulnerability in the app comes with extensive write-ups and information so you can really learn the ins and outs of every vuln.</p>
+					</a>
+					<a href="https://www.exploit-db.com/papers/17934" target="_blank">
+						<h5>Beyond SQLi: Obfuscate and Bypass</h5>
+						<p>This site lists techniques to get around filtering to help you with SQL injection. However, these techniques can be applied to filtering in general, such as to get around XSS or other filters.</p>
+					</a>
+					<a href="http://pentestmonkey.net/category/cheat-sheet/sql-injection" target="_blank">
+						<h5>SQL Injection Cheat Sheets</h5>
+						<p>This site hosts cheat sheets for 7 different flavours of SQL. They go into enumerating tables, columns and other kinds of data you’d need from a database.</p>
+					</a>
+					</a>
+			</div>
+		</div>
+		<div class="card container">
+			<div class="card-body">
+				<a name="cryptography">
+					<h3>Cryptography</h3>
+					<a href="http://cryptopals.com/" target="_blank">
+						<h5>Matasano Crypto Challenges</h5>
+						<p>A series of online problems designed to take you from the basics of crypto-math to attacks on real world cryptography.</p>
+					</a>
+					<a href="https://class.coursera.org/crypto-preview" target="_blank">
+						<h5>Introduction to Cryptography on Coursera</h5>
+						<p>This online course is taught by Dan Boneh, one of the researchers on the forefront of modern cryptography. The course runs year-round, but there are also scheduled classes taught a few times a year.</p>
+					</a>
+					<a href="http://cacr.uwaterloo.ca/hac" target="_blank">
+						<h5>Handbook of Applied Cryptography</h5>
+						<p>Chapter 1 has a great overview of many different cryptographic primitives: symmetric-key encryption, public-key encryption, digital signatures, hash functions, randomness, etc. The other chapters get pretty intense but are also very good. Chapter 1 is probably all you’d need as an intro.</p>
+					</a>
+				</a>
+			</div>
+		</div>
+		<div class="card container">
+		  <div class="card-body">
+				<a name="application-security">
+					<h3>Application Security</h3>
+					<a href="http://opensecuritytraining.info/Training.html" target="_blank">
+						<h5>Open Security Training</h5>
+						<p>A series of courses that build malware analysis and exploitation knowledge from the ground up. Start at Introductory x86 and move on from there.</p>
+					</a>
+					<a href="https://microcorruption.com/login" target="_blank">
+						<h5>Microcorruption</h5>
+						<p>A cool embedded security CTF made by the creators of Cryptopals, Matasano. A great way to learn assembly and debugging in a realistic context.</p>
+					</a>
+					<a href="https://github.com/RPISEC/MBE" target="_blank">
+						<h5>Modern Binary Exploitation</h5>
+						<p>This repository contains the materials to an RPI course on vulnerability research, reverse engineering and binary exploitation. The expected demographic is students with zero reverse engineering or binary exploitation knowledge.</p>
+					</a>
+					<a href="http://insecure.org/stf/smashstack.html" target="_blank">
+						<h5>Smashing the Stack for Fun and Profit</h5>
+						<p>This is THE writeup on buffer overflows. It requires a basic knowledge of x86 assembly. An understanding of concepts such as memory is helpful, but the paper does a nice job of explaining the stack and how programs access it.</p>
+					</a>
+				</a>
+			</div>
+		</div>
+		<div class="card container">
+		  <div class="card-body">
+				<a name="general-practice">
+					<h3>General Practice</h3>
+					<a href="http://www.amanhardikar.com/mindmaps/Practice.html" target="_blank">
+						<h5>Practice Lab Mindmap</h5>
+						<p>A huge list of sites, web apps, operating systems and mobile apps to practice exploiting. Some of the best are listed below.</p>
+					</a>
+					<a href="https://www.hackthissite.org" target="_blank">
+						<h5>Hack this Site</h5>
+						<p>In addition to some basic challenges, this site hosts a series of “realistic” challenges which give you (almost) a full site to hack.</p>
+					</a>
+					<a href="http://overthewire.org/wargames" target="_blank">
+						<h5>Over the Wire Wargames</h5>
+						<p>This site hosts a number of environments to try out binary exploitation. The levels start out very accessible, and build knowledge as you progress. The first wargame, bandit, also teaches how to use the command line on a linux system.</p>
+					</a>
+					<a href="http://smashthestack.org/index.html" target="_blank">
+						<h5>Smash the Stack Wargames</h5>
+						<p>Another set of wargames, this site offers additional opportunities for reverse engineering and exploitation.</p>
+					</a>
+				</a>
+			</div>
+		</div>
+		<div class="card container">
+		  <div class="card-body">
+				<a name="advanced">
+					<h3>Advanced</h3>
+					<a href="http://pwnable.kr" target="_blank">
+						<h5>Pwnable.kr</h5>
+						<p>A more advanced collection of security challenges. Mostly deals with executables, reversing, or system knowledge.</p>
+					</a>
+					<a href="http://www.securitytraps.pl" target="_blank">
+						<h5>Security Traps</h5>
+						<p>More advanced security challenges!</p>
+					</a>
+					<a href="https://www.offensive-security.com/metasploit-unleashed" target="_blank">
+						<h5>Metasploit Unleashed</h5>
+						<p>Metasploit is the world’s most used penetration testing software. This course will teach you how to use Metasploit in a structured and professional manner.</p>
+					</a>
+				</a>
+			</div>
+		</div>
+		<div class="card container">
+		  <div class="card-body">
+				<a name="ctf-information">
+					<h3>CTF Information</h3>
+					<a href="https://ctftime.org/event/list/upcoming" target="_blank">
+						<h5>CTFtime.org</h5>
+						<p>Hosts information about past CTFs, upcoming CTFs, and participants. Useful for finding upcoming live events to participate in!</p>
+					</a>
+					<a href="http://shell-storm.org/repo/CTF" target="_blank">
+						<h5>Shell Storm Archives</h5>
+						<p>Stores challenges from past CTFs.</p>
+					</a>
+					<a href="https://github.com/ctfs" target="_blank">
+						<h5>CTF Writeups</h5>
+						<p>A GitHub organization with past year CTF writeups. Organized into different repositories for different years.</p>
+					</a>
+					<a href="https://picoctf.com" target="_blank">
+						<h5>picoCTF</h5>
+						<p>This is a good introductory CTF which is available for practice even though it’s ended. Also see picoCTF 2013.</p>
+					</a>
+				</a>
+			</div>
+		</div>
+		<div class="card container">
+		  <div class="card-body">
+				<a name="news-blogs">
+					<h3>News/Blogs</h3>
+					<a href="https://www.schneier.com" target="_blank">
+						<h5>Schneier on Security</h5>
+						<p>Bruce Schneier is an internationally renowned security technologist. His blog is pretty good. Also check out his newsletter “Crypto-Gram”.</p>
+					</a>
+					<a href="http://krebsonsecurity.com" target="_blank">
+						<h5>Krebs on Security</h5>
+						<p>Brian Krebs is a reporter who also knows a lot about security. Doesn’t have headlines, does have very good in-depth reporting.</p>
+					</a>
+					<a href="https://isc.sans.edu" target="_blank">
+						<h5>SANS Internet Storm Center</h5>
+						<p>The Internet Storm Center (ISC) monitors for and identifies new and emerging cyber threats. Sometimes the threats are underwhelming (e.g. malicious spam with Word document), but the ISC has also detected and analysed important new malware.</p>
+					</a>
+					<a href="https://news.ycombinator.com" target="_blank">
+						<h5>Hacker News</h5>
+						<p>Mostly about software development, but also some security.</p>
+					</a>
+				</a>
+			</div>
+		</div>
+		<div class="disclaimer">
+			<p class="text-muted container disclaimer-text">
+				Although this organization has members who are University of Virginia students and may have University employees associated or engaged in its activities and affairs, the organization is not a part of or an agency of the University. It is a separate and independent organization which is responsible for and manages its own activities and affairs. The University does not direct, supervise or control the organization and is not responsible for the organization’s contracts, acts or omissions.
+			</p>
+			<p class="text-right container disclaimer-text">
+				© CNS@UVA
+			</p>
+		</div>
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+	</body>
+</html>
