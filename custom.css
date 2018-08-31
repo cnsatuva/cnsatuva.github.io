@@ -8,7 +8,7 @@ body {
 
 .jumbotron {
   margin-bottom: 0%;
-  background-image: url('cyber.jpg');
+  background-image: url('cyber.png');
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 0px;
@@ -17,7 +17,6 @@ body {
 .jumbobtron-text {
   color: #ffffff;
   font-weight: bold;
-  background: rgba(1, 75, 165, 0.8);
   border-radius: 15px;
   padding: 0.1%;
 }
